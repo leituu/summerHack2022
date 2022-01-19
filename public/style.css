@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+header {
+    height: 150px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header .logo {
+    display: inline-block;
+    margin-top: 10px;
+    /* margin-left: 100px; */
+}
+
+header .logo img {
+    height: 120px;
+    width: fit-content;
+    
+}
+
+header .titulo {
+    display: inline-block;
+    margin-left: 317px;
+    
+    
+}
+
+header .titulo img {
+    height: 120px;
+}
+
+.media {
+    display: inline-block;
+    float: right;
+    /* margin-right: 200px; */
+}
+
+.media div {
+    display: inline-block;
+    margin: 40px 40px 0px 0;
+}
+
+/* SECTION */
+
+.collage {
+    height: calc(100vh - 150px);
+    background: url('img/324277678486201.jpg');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow:auto
+}
+
+.collage .info {
+    max-width: 700px;
+    height: 400px;
+    margin: 175px auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    border: solid 2px white;
+}
+
+.collage .info img {
+    margin-left: 16px;
+    margin-top: 16px;
+    border-radius: 5px;
+    border: solid 2px black
+}
+
+.collage .info .info-desc {
+    width: 400px;
+    float: right;
+}
+
+.collage .info .info-desc ul {
+    list-style: none;
+    color: #fff;
+    float: right;
+    margin-top: 20px;
+}
+
+.collage .info .info-desc ul:nth-child(1) {
+    margin-right: 78px;
+    
+}
+
+.collage .info .info-desc ul:nth-child(2) {
+    /* margin-right: 50px; */
+    padding-right:18px;
+}
+
+.collage .info ul li {
+    margin: 10px auto;
+}
+
+.collage .info .info-desc p {
+    width: 340px;
+    float: right;
+    color: #fff;
+    margin-top: 6px;
+    margin-right: 10px;
+}
+
+/* REPRODUCTOR */
+
+#reproductor audio {
+    width: 95%;
+    height: 40px;
+    display: block;
+    margin: 30px auto 0 auto;
+}
+
+/* LETRA */
+
+#letra {
+    width: fit-content;
+    margin: auto;
+}
