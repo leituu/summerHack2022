@@ -131,6 +131,7 @@ header .titulo a img:hover {
 
 .collage .ir-letra p a {
     text-decoration: none;
+    color: #fff;
 }
 
 .collage .ir-letra p a:visited {
@@ -180,6 +181,7 @@ header .titulo a img:hover {
 
 #letra p a {
     text-decoration: none;
+    color: #000;
 }
 
 #letra p a:visited {
@@ -202,6 +204,34 @@ header .titulo a img:hover {
     font-style: italic;
     font-size: 20px;
     font-weight: 300;
+}
+
+.home {
+    display: inline-block;
+    margin-left: calc(100vw - 300px);
+    margin-top: 10px;
+    height: 40px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+}
+
+.home p {
+    float: right;
+    margin-right: 10px;
+}
+
+.home p a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.home img {
+    height: 25px;
+    float: right;
+    margin-top: 12px;
 }
 
 /* FOOTER */
