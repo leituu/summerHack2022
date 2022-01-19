@@ -108,6 +108,34 @@ header .titulo a img:hover {
     margin-right: 10px;
 }
 
+
+.collage .ir-letra {
+    float: right;
+    margin-right: 20px;
+    margin-top: 100px;
+    height: fit-content;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+}
+
+.collage .ir-letra p {
+    float:left;
+    font-size: 25px;
+    margin:0;
+    margin-top: 25px;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.collage .ir-letra img {
+    height: 60px;
+    float: right;
+    margin-top: 12px;
+}
+
 /* REPRODUCTOR */
 
 #reproductor audio {
