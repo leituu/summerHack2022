@@ -12,6 +12,7 @@ header {
 
 header .logo {
     display: inline-block;
+    float: left;
     margin-top: 10px;
     /* margin-left: 100px; */
 }
@@ -23,18 +24,20 @@ header .logo img {
 }
 
 header .titulo {
-    display: inline-block;
+    float: left;
     margin-left: 317px;
-    
-    
+    margin-top: 15px;   
 }
 
-header .titulo img {
+header .titulo a img {
     height: 120px;
 }
 
+header .titulo a img:hover {
+    height: 130px;
+}
+
 .media {
-    display: inline-block;
     float: right;
     /* margin-right: 200px; */
 }
@@ -131,6 +134,7 @@ header .titulo img {
 #letra p {
     font-style: italic;
     font-size: 20px;
+    font-weight: 300;
 }
 
 /* FOOTER */
