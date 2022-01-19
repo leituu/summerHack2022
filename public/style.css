@@ -11,7 +11,6 @@ header {
 }
 
 header .logo {
-    display: inline-block;
     float: left;
     margin-top: 10px;
     /* margin-left: 100px; */
@@ -130,6 +129,15 @@ header .titulo a img:hover {
     font-weight: bolder;
 }
 
+.collage .ir-letra p a {
+    text-decoration: none;
+}
+
+.collage .ir-letra p a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
 .collage .ir-letra img {
     height: 60px;
     float: right;
@@ -147,11 +155,42 @@ header .titulo a img:hover {
 
 /* LETRA */
 
+.contenedor {
+    padding-top: 50px;
+    background-color: rgb(248, 246, 246);
+    padding-bottom: 30px;
+}
+
 #letra {
     width: fit-content;
-    margin: auto;
+    margin: 0px auto 30px auto;
     text-align: center;
     padding-top: 30px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    border: solid 1px #000;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: -6px -6px 5px #F3425F,
+                -12px -12px 5px #343486,
+                -18px -18px 5px #61BEDE,
+                -24px -24px 5px #F5F475;
+}
+
+#letra p a {
+    text-decoration: none;
+}
+
+#letra p a:visited {
+    text-decoration: none;
+    color: #000
+}
+
+#letra p a:hover {
+    text-decoration: none;
+    background-color: lightgrey;
+    border-radius: 4px;
 }
 
 #letra h1 {
