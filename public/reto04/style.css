@@ -1,0 +1,334 @@
+body {
+    margin: 0;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: .2px;
+    color: silver;
+    font-family: Avenir,sans-serif;
+    background-color: #040714;
+}
+
+/* FULL SCREEN */
+
+
+/* HEADER */
+header {
+    height: 70px;
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 36px
+}
+
+.nav-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 181.78px;
+    background-color: rgba(0,0,0,.8);
+    border: 1px solid silver;
+    cursor: pointer;
+    color:#f9f9f9;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.nav-btn:hover {
+    background-color: #f9f9f9;
+    color: #000
+}
+
+/* HERO */
+
+
+#hero {
+    height: 100vh;
+    background-image: url(img/main-img.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+section {
+    box-sizing: border-box;
+    display: flex;
+    min-height: 100vh;
+    padding: 5.6vw;
+}
+
+.suscrip-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 640px;
+}
+
+.suscrip-info h3 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    color: rgb(249,249,249  );
+    letter-spacing: 0;
+    margin-top: 12.6%;
+}
+
+.suscrip-info img {
+    width: 63%;
+    margin-bottom: 7%;
+}
+
+button {
+    font-family: Avenir;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    height: 68px;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color:#f9f9f9;
+    margin-bottom: 20px;
+    background-color: #0062E5;
+}
+
+.suscrip-info button:hover {
+    background-color: #016cf9;
+}
+
+.suscrip-info .nota-pie {
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.suscrip-info a {
+    text-decoration: underline;
+    color: #fff;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.suscrip-info .suscrip-disney {
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 0;
+}
+
+.devices .dev-img {
+    width: 50%;
+}
+
+.devices .dev-img img {
+    width: 100%;
+}
+
+.dev-info {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    width: 50%;
+    padding:0 2vw;
+}
+
+.dev-info h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(249,249,249  );
+}
+
+.dev-info p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.dev-info .dev-promo {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.promo {
+    max-width: 360px;
+}
+
+/* SECCION REY LEON */
+
+.rey-leon {
+    width: 100%;
+}
+
+.rey-leon img {
+    width: 100%;
+}
+
+.rey-leon-texto {
+    box-sizing: border-box;
+    position: absolute;
+    width: calc(50% - 5vw);
+    padding: 0 2vw;
+    right: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.rey-leon-texto h3 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.rey-leon-texto p {
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.devices-view {
+    display: flex;
+    flex-direction: column;
+}
+
+.devices-view h2 {
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 48px;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    height: fit-content;
+}
+
+.devices-view .all-devices {
+    display: flex;
+}
+
+.device {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 12px;
+}
+
+.device-svg {
+    width: 100%;
+}
+
+.device-svg img {
+    width: 100%;
+}
+
+.device-name {
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.device-marca p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    font-style: normal;
+}
+
+/* FOOTER */
+
+footer {
+    box-sizing: border-box;
+    padding: 26px 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-cont {
+    width: 80px;
+}
+
+.logo-cont img {
+    width: 100%;
+}
+
+.politicas ul {
+    display: flex;
+    list-style: none;
+    font-weight: 400;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.politicas ul li {
+    font-size: 12px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.politicas ul li span {
+    width: 18px;
+    height: 100%;
+}
+
+.politicas ul li span img {
+    width: 18px;
+    position:relative;
+    left: -3px;
+    top: 4px;
+}
+
+.politicas ul li span:last-child img {
+    width: 18px;
+    position:relative;
+    left: -3px;
+    top: 4px;
+}
+
+.politicas ul li:hover {
+    color: #fff;
+    font-size: 12px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+
+.ubicacion p {
+    text-align: center;
+}
+
+.derechos {
+    font-size: 12px;
+}
+
+.ubicacion {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+/* TABLET */
+
+@media screen {
+    
+}
