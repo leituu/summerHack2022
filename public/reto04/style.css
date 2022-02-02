@@ -55,7 +55,7 @@ nav {
 
 
 #hero {
-    height: 100vh;
+    min-height: 100vh;
     background-image: url(img/main-img.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -91,7 +91,7 @@ section {
 }
 
 button {
-    font-family: Avenir;
+    font-family: Avenir,'sans-serif';
     border: none;
     border-radius: 4px;
     width: 100%;
@@ -177,6 +177,10 @@ button {
 
 .rey-leon img {
     width: 100%;
+}
+
+.rey-leon-img-sm {
+    display: none;
 }
 
 .rey-leon-texto {
@@ -329,6 +333,472 @@ footer {
 
 /* TABLET */
 
-@media screen {
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+
+    section {
+        padding: 10vw 5vw;
+        min-height: auto;
+        display: flex;
+    }
     
+    #hero {
+        box-sizing: border-box;
+        padding: 30vw 5vw 10vw;
+        min-height: 70vh;
+        background-image: url(img/main-img-med.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        justify-content: center;
+    }
+
+    #hero-texto {
+        height: 100%;
+    }
+
+    .suscrip-info h3 {
+        font-size: 24px;
+        line-height: 34px;
+        margin-bottom: 16px;
+    }
+
+    .suscrip-info img {
+        width: 50%;
+        margin-bottom: 6%;
+    }
+
+    .dev-info h2 {
+        font-size: 28px;
+        line-height: 38px;
+        margin-bottom: 16px;
+    }
+    
+    .dev-info p {
+        margin-top: 0;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+
+    .dev-info .dev-promo {
+        font-size: 16px;
+        padding-right: 6%;
+        line-height: 26px;
+    }
+
+    .rey-leon-img-sm {
+        display: none;
+    }
+
+    .rey-leon-texto {
+        height: 55%;
+    }
+
+    .rey-leon-texto h3{
+        font-size: 24px;
+        line-height: 34px;
+        color: #fff;
+    }
+
+    .rey-leon-texto p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .devices-view h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .device-name {
+        font-size: 24px;
+        line-height: 34px;
+        text-align: center;
+
+    }
+
+    .device-marca p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+
+    nav {
+        padding-right: 15px;
+    }
+    .nav-btn {
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        padding: 8px 8px;
+        width: 150px;
+        background-color: rgba(0,0,0,.8);
+        border: 1px solid silver;
+        cursor: pointer;
+        color:#f9f9f9;
+        border-radius: 4px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 15px;
+        letter-spacing: 1px;
+    }
+
+    section {
+        padding: 10vw 5vw;
+        min-height: auto;
+        display: flex;
+    }
+    
+    #hero {
+        box-sizing: border-box;
+        min-height: 70vh;
+        padding: 33vw 5vw 20vw;
+        background-image: url(img/main-img-med.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        justify-content: center;
+    }
+
+    #hero-texto {
+        height: 100%;
+    }
+
+    .suscrip-info {
+        max-width: 500px;
+    }
+
+    .suscrip-info h3 {
+        font-size: 22px;
+        line-height: 32px;
+        margin-bottom: 16px;
+    }
+
+    .suscrip-info img {
+        width: 35%;
+        margin-bottom: 5%;
+    }
+
+    button {
+        font-size: 15px;
+        line-height: 15px;
+        max-width: 524px;
+        height: 50px;
+    }
+
+    .suscrip-info .nota-pie {
+        font-size: 11px;
+        line-height: 21px;
+    }
+
+    .suscrip-info a {
+        font-size:16px;
+    }
+
+    .suscrip-info .suscrip-disney {
+        font-size: 15px;
+    }
+
+
+
+    .devices {
+        flex-direction: column;
+    }
+
+    .dev-info {
+        width: 100%;
+    }
+
+    .promo {
+        margin:auto;
+    }
+
+    .devices .dev-img {
+        width: 100%;
+    }
+
+    .dev-info h2 {
+        margin-top:10px;
+        font-size: 26px;
+        line-height: 36px;
+        margin-bottom: 16px;
+        text-align: center;
+    }
+    
+    .dev-info p {
+        margin-top: 0;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+    }
+
+    .devices-sub {
+        flex-direction: column-reverse;
+    }
+
+    .dev-info .dev-promo {
+        /* padding-right: 6%; */
+        font-size: 16px;
+        line-height: 26px;
+        
+    }
+
+    .rey-leon-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rey-leon-img-md {
+        display: none ;
+    }
+
+    .rey-leon-img-sm {
+        display: block;
+    }
+
+    .rey-leon-texto {
+        position: inherit;
+        height: 55%;
+        width: auto;
+    }
+
+    .rey-leon-texto h3{
+        font-size: 24px;
+        line-height: 34px;
+        color: #fff;
+        text-align: center;
+    }
+
+    .rey-leon-texto p {
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+    }
+
+    .all-devices {
+        flex-wrap: wrap;
+    }
+
+    .device {
+        width: 50%;
+    }
+
+    .devices-view h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .device-name {
+        font-size: 24px;
+        line-height: 34px;
+        text-align: center;
+
+    }
+
+    .device-marca p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+/* MOBILE */
+
+@media only screen and (max-width: 479px) {
+    nav {
+        padding-right: 15px;
+        height: 52px;
+    }
+    .nav-btn {
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        padding: 8px 8px;
+        width: 120px;
+        background-color: rgba(0,0,0,.8);
+        border: 1px solid silver;
+        cursor: pointer;
+        color:#f9f9f9;
+        border-radius: 4px;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 15px;
+        letter-spacing: 0px;
+    }
+
+    section {
+        padding: 10vw 5vw;
+        min-height: auto;
+        display: flex;
+    }
+
+    #hero {
+        min-height: 70vh;
+        padding: 31vw 5vw 20vw;
+        background-image: url(img/main-img-sm.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    #hero-texto {
+        height: 100%;
+    }
+
+    .suscrip-info {
+        max-width: 500px;
+    }
+
+    .suscrip-info h3 {
+        font-size: 22px;
+        line-height: 32px;
+        margin-bottom: 16px;
+    }
+
+    .suscrip-info img {
+        width: 55%;
+        margin-bottom: 5%;
+    }
+
+    button {
+        font-size: 15px;
+        line-height: 15px;
+        max-width: 524px;
+        height: 50px;
+        padding: 0 25px;
+    }
+
+    .suscrip-info .nota-pie {
+        font-size: 11px;
+        line-height: 21px;
+    }
+
+    .suscrip-info a {
+        font-size:16px;
+    }
+
+    .suscrip-info .suscrip-disney {
+        font-size: 15px;
+    }
+
+    .devices {
+        flex-direction: column;
+    }
+
+    .dev-info {
+        width: 100%;
+    }
+
+    .devices .dev-img {
+        width: 100%;
+    }
+
+    .dev-info h2 {
+        margin-top:10px;
+        font-size: 26px;
+        line-height: 36px;
+        margin-bottom: 16px;
+        text-align: center;
+    }
+    
+    .dev-info p {
+        margin-top: 0;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+    }
+
+    .devices-sub {
+        flex-direction: column-reverse;
+    }
+
+    .dev-info .dev-promo {
+        /* padding-right: 6%; */
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+
+    .rey-leon-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rey-leon-img-md {
+        display: none;
+    }
+
+    .rey-leon-img-sm {
+        display: block;
+    }
+
+    .rey-leon-texto {
+        position: inherit;
+        height: 55%;
+        width: auto;
+    }
+
+    .rey-leon-texto h3{
+        margin-top: 15px;
+        font-size: 22px;
+        line-height: 32px;
+        color: #fff;
+        text-align: center;
+    }
+
+    .rey-leon-texto p {
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    .all-devices {
+        flex-wrap: wrap;
+    }
+
+    .device {
+        width: 50%;
+    }
+
+    .devices-view h2 {
+        font-size: 26px;
+        line-height: 36px;
+        letter-spacing: 0;
+    }
+
+    .device-name {
+        font-size: 22px;
+        line-height: 32px;
+        text-align: center;
+
+    }
+
+    .device-marca p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .politicas {
+        padding: 0 0;
+    }
+
+    .politicas ul {
+        padding: 0;
+    }
+
+    .politicas ul li{
+        font-size: 11px;
+        line-height: 21px;
+        margin: 8px auto;
+    }
+
+    .ubicacion p {
+        font-size: 11px;
+        line-height: 21px;
+
+    }
+
 }
