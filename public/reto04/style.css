@@ -8,6 +8,7 @@ body {
     color: silver;
     font-family: Avenir,sans-serif;
     background-color: #040714;
+    -webkit-font-smoothing: antialiased;
 }
 
 /* FULL SCREEN */
