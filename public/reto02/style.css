@@ -10,13 +10,14 @@ header {
     height: 150px;
     max-width: 1200px;
     margin: auto;
-    /* position: fixed; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header .logo {
-    float: left;
-    margin-top: 10px;
-    /* margin-left: 100px; */
+    box-sizing: border-box;
+    padding-left: 20px;
 }
 
 header .logo img {
@@ -40,13 +41,17 @@ header .titulo a img:hover {
 }
 
 .media {
-    float: right;
+    display: flex;
+    align-content: center;
+    height: fit-content;
     /* margin-right: 200px; */
 }
 
 .media div {
-    display: inline-block;
-    margin: 40px 40px 0px 0;
+    display: block;
+    box-sizing: border-box;
+    height: fit-content;
+    padding: 0px 0px 0px 20px;
 }
 
 /* SECTION */
@@ -69,7 +74,7 @@ section {
 
 .collage iframe {
     display: block;
-    min-width: 344px;
+    /* min-width: 344px; */
     max-width: 600px;
     margin: auto;
 }
@@ -167,9 +172,11 @@ footer {
 
 
 @media only screen and (max-width: 391px) {
-    
+
     header {
         height: 75px;
+        display: flex;
+        justify-content: space-between;
     }
 
     header .logo {
@@ -177,13 +184,15 @@ footer {
     }   
 
     header .logo img {
+        box-sizing: border-box;
         height: 60px;
         width: fit-content;
-        margin-left: 10px;
+        padding-left: 10px;
         
     }
 
     .media div {
+        box-sizing: border-box;
         margin: 10px 10px;
     }
 
@@ -197,6 +206,7 @@ footer {
 
     .collage {
         height: calc(100vh - 75px);
+        width: 100vw;
     }
 
     .collage iframe {
@@ -223,6 +233,10 @@ footer {
     background-color: rgba(0,0,0,.4);
     border-radius: 25px;
     cursor: pointer;
+    }
+
+    .ir-letra p {
+        display: none;
     }
 
 
