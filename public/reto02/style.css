@@ -159,7 +159,7 @@ footer {
 }
 
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 391px) {
 
     header {
         height: 75px;
@@ -174,7 +174,7 @@ footer {
     header .logo img {
         box-sizing: border-box;
         height: 60px;
-        width: fit-content;
+        width: auto;
         padding-left: 10px;
         
     }
