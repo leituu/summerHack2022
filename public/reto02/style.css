@@ -26,19 +26,6 @@ header .logo img {
     
 }
 
-header .titulo {
-    float: left;
-    margin-left: 317px;
-    margin-top: 15px;   
-}
-
-header .titulo a img {
-    height: 120px;
-}
-
-header .titulo a img:hover {
-    height: 130px;
-}
 
 .media {
     display: flex;
@@ -117,6 +104,7 @@ section {
     height: fit-content;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-content: center;
     margin:auto;
     background-color: rgba(0,0,0,.1);
@@ -171,7 +159,7 @@ footer {
 }
 
 
-@media only screen and (max-width: 391px) {
+@media only screen and (max-width: 390px) {
 
     header {
         height: 75px;
