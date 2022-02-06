@@ -22,7 +22,7 @@ header .logo {
 
 header .logo img {
     height: 120px;
-    width: fit-content;
+    width: auto;
     
 }
 
@@ -37,8 +37,13 @@ header .logo img {
 .media div {
     display: block;
     box-sizing: border-box;
-    height: fit-content;
+    height: auto;
     padding: 0px 0px 0px 20px;
+}
+
+.media div a img {
+    width: 65px;
+    height: auto;
 }
 
 /* SECTION */
@@ -121,7 +126,8 @@ section {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 100%;
+    /* width: 100%; */
+    margin: auto;
 
 }
 
@@ -173,7 +179,7 @@ footer {
 
     header .logo img {
         box-sizing: border-box;
-        height: 60px;
+        height: 0px;
         width: auto;
         padding-left: 10px;
         
@@ -185,7 +191,8 @@ footer {
     }
 
     .media div a img {
-        height: 50px;
+        width: 40px;
+        height: auto;
     }
 
     section {
