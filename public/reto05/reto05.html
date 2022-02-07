@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/note.png" type="image/x-icon">
+    <!-- META -->
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- STYLES -->
+    <link rel="stylesheet" href="style.css">
+    <title>Listita</title>
+</head>
+<body>
+    <header class="sticky-top">
+        <nav class="navbar">
+            <div class="d-flex justify-content-start align-items-center">
+                <a class="navbar-brand" href="#">
+                    <img src="img/note.png" alt="" width="85" height="87" class="d-inline-block align-text-top">
+                </a>
+                <span class="titulo">Mi Listadito JS</span>
+            </div>
+        </nav>
+    </header>
+    <section class="visually-hidden">
+        <div class="container vacio d-flex flex-column align-items-center">
+            <div class="vacio-texto mt-5">
+                <p class="text-center">Uppss... <br>
+                    Parece que no agregaste nada todavia</p>
+            </div>
+            <div class="vacio-img d-flex justify-content-center">
+                <img src="./img/dead.png" alt="">
+            </div>
+        </div>
+
+    </section>
+    <!-- AGREGAR PRODUCTO -->
+    <section class="form-section visually-hidden">
+        <div class="d-flex justify-content-center blur-screen">
+            <form class="d-flex flex-column align-items-center justify-content-start pt-4">
+                <div class="close-form-btn"></div>
+                <h3 class="text-center mt-1">Agregar Productos</h3>
+                <div class="col-10 py-2">
+                    <input type="text" class="form-control" id="titulo" placeholder="Titulo / Producto">
+                </div> 
+                <div class="col-10 py-2">
+                    <select class="form-select" aria-label=".form-select-lg example">
+                        <option selected disabled>Selecciona categoria</option>
+                        <option value="001-fruit.png">Frutas</option>
+                        <option value="002-bakery.png">Panificados</option>
+                        <option value="003-first-aid-kit.png">Farmacia</option>
+                        <option value="004-milk.png">Lacteos</option>
+                        <option value="005-meat.png">Carnes</option>
+                        <option value="006-fish.png">Pescados</option>
+                        <option value="007-vegetable.png">Verduras</option>                 
+                    </select>
+                </div>
+                <div class="col-10 py-2">
+                    <label for="Textarea1" class="form-label">Descripcion</label>
+                    <textarea class="form-control" id="Textarea1" rows="3" style="resize: none;" placeholder="Agrega una descripcion (Opcional)"></textarea>
+                </div>
+                <div class="col-10 d-flex justify-content-center mt-3"><button type="submit" class="btn-form-add">Agregar</button></div>
+            </form>
+        </div>
+    </section>
+    <!-- LISTADO DE ITEMS -->
+    <section class="listado">
+        <ul class="container pt-4">
+            <li class="item col-sm-10 col-md-5 mt-2 d-flex align-items-center">
+                <img class="mx-3" src="./img/001-fruit.png" alt="">
+                <div class="item-txt flex-grow-1"><p class="ms-1 mb-0">Frutas</p></div>
+                <div class="item-desc visually-hidden"></div>
+                <div class="abrir-item mx-2"></div>
+            </li>
+        </ul>
+    </section>
+    <div class="btn-add">
+        <img src="./img/add.png" alt="">
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
