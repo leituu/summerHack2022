@@ -27,7 +27,7 @@
             </div>
         </nav>
     </header>
-    <section class="visually-hidden">
+    <section id="emptySection" class="">
         <div class="container vacio d-flex flex-column align-items-center">
             <div class="vacio-texto mt-5">
                 <p class="text-center">Uppss... <br>
@@ -40,16 +40,16 @@
 
     </section>
     <!-- AGREGAR PRODUCTO -->
-    <section class="form-section visually-hidden">
+    <section id="formSection" class="form-section visually-hidden">
         <div class="d-flex justify-content-center blur-screen">
-            <form class="d-flex flex-column align-items-center justify-content-start pt-4">
-                <div class="close-form-btn"></div>
+            <form id="form" class="d-flex flex-column align-items-center justify-content-start pt-4">
+                <div id="closeForm" class="close-form-btn"></div>
                 <h3 class="text-center mt-1">Agregar Productos</h3>
                 <div class="col-10 py-2">
                     <input type="text" class="form-control" id="titulo" placeholder="Titulo / Producto">
                 </div> 
                 <div class="col-10 py-2">
-                    <select class="form-select" aria-label=".form-select-lg example">
+                    <select id="categoria" class="form-select" aria-label=".form-select-lg example">
                         <option selected disabled>Selecciona categoria</option>
                         <option value="001-fruit.png">Frutas</option>
                         <option value="002-bakery.png">Panificados</option>
@@ -61,27 +61,28 @@
                     </select>
                 </div>
                 <div class="col-10 py-2">
-                    <label for="Textarea1" class="form-label">Descripcion</label>
-                    <textarea class="form-control" id="Textarea1" rows="3" style="resize: none;" placeholder="Agrega una descripcion (Opcional)"></textarea>
+                    <label for="descripcion" class="form-label">Descripcion</label>
+                    <textarea class="form-control" id="descripcion" rows="3" style="resize: none;" placeholder="Agrega una descripcion (Opcional)"></textarea>
                 </div>
-                <div class="col-10 d-flex justify-content-center mt-3"><button type="submit" class="btn-form-add">Agregar</button></div>
+                <div class="col-10 d-flex justify-content-center mt-3"><button id="addItem" type="submit" class="btn-form-add">Agregar</button></div>
             </form>
         </div>
     </section>
     <!-- LISTADO DE ITEMS -->
-    <section class="listado">
+    <section id="listadoSection" class="listado visually-hidden">
         <ul class="container pt-4">
-            <li class="item col-sm-10 col-md-5 mt-2 d-flex align-items-center">
+            <!-- <li class="item col-sm-10 col-md-5 mt-2 d-flex align-items-center">
                 <img class="mx-3" src="./img/001-fruit.png" alt="">
                 <div class="item-txt flex-grow-1"><p class="ms-1 mb-0">Frutas</p></div>
                 <div class="item-desc visually-hidden"></div>
                 <div class="abrir-item mx-2"></div>
-            </li>
+            </li> -->
         </ul>
     </section>
-    <div class="btn-add">
+    <div id="addBtn" class="btn-add">
         <img src="./img/add.png" alt="">
     </div>
+    <script src="./main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
