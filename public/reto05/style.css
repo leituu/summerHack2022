@@ -155,6 +155,7 @@ form {
     font-weight: 600;
     font-size: 24px;
     line-height: 28px;
+    text-transform: uppercase;
 }
 
 .abrir-item {
@@ -184,6 +185,43 @@ form {
     border-radius: 4px;
     transform: rotate(-45deg);
     top:18px;
+}
+
+/* ITEM CARD */
+
+.item-card {
+    position: absolute;
+    width: 349px;
+    height: 250px;
+    top:35%;
+    background: #9ACED9;
+    box-shadow: 0px 3px 7px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 36px;
+}
+
+#itemCard div img {
+    width: 70px;
+    height: 70px;
+}
+
+#itemCard div:nth-child(2) {
+    width: 100%;
+}
+
+#cardTitulo {
+    text-transform: uppercase;
+}
+
+#cardDesc {
+    width: 100%;
+}
+
+#cardDesc p{
+    word-break: keep-all;
+    overflow: scroll;
+    width: 85%;
+    height: 80px;
+    
 }
 
 /* BLUREADO */
