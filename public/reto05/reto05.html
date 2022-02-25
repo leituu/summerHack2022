@@ -27,21 +27,8 @@
             </div>
         </nav>
     </header>
-    <section id="emptySection" class="">
-        <div class="container vacio d-flex flex-column align-items-center">
-            <div class="vacio-texto mt-5">
-                <p class="text-center">Uppss... <br>
-                    Parece que no agregaste nada todavia</p>
-            </div>
-            <div class="vacio-img d-flex justify-content-center">
-                <img src="./img/dead.png" alt="">
-            </div>
-        </div>
-
-    </section>
-    <!-- AGREGAR PRODUCTO -->
-    <section id="formSection" class="form-section visually-hidden">
-        <div class="d-flex justify-content-center blur-screen">
+    <div class="container-fluid">
+        <section id="formSection">
             <form id="form" class="d-flex flex-column align-items-center justify-content-start pt-4">
                 <div id="closeForm" class="close-form-btn"></div>
                 <h3 class="text-center mt-1">Agregar Productos</h3>
@@ -50,7 +37,7 @@
                 </div> 
                 <div class="col-10 py-2">
                     <select id="categoria" class="form-select" aria-label=".form-select-lg example">
-                        <option selected disabled>Selecciona categoria</option>
+                        <option value="" selected disabled>Selecciona categoria</option>
                         <option value="001-fruit.png">Frutas</option>
                         <option value="002-bakery.png">Panificados</option>
                         <option value="003-first-aid-kit.png">Farmacia</option>
@@ -66,26 +53,29 @@
                 </div>
                 <div class="col-10 d-flex justify-content-center mt-3"><button id="addItem" type="submit" class="btn-form-add">Agregar</button></div>
             </form>
-        </div>
-    </section>
-    <!-- LISTADO DE ITEMS -->
-    <section id="listadoSection" class="listado visually-hidden">
-        <ul class="container pt-4">
-            <!-- <li class="item col-sm-10 col-md-5 mt-2 d-flex align-items-center">
-                    <img class="mx-3" src="./img/001-fruit.png" alt="">
-                    <div class="item-txt flex-grow-1"><p class="ms-1 mb-0">Frutas</p></div>
-                    <div class="item-desc visually-hidden"></div>
-                    <div class="abrir-item mx-2"></div>
-            </li> -->
-        </ul>
-    </section>
-    <section id="mostrarItemSection" class="form-section visually-hidden">
-        <div class="d-flex justify-content-center blur-screen">
-            <div id="itemCard" class="d-flex flex-column align-items-center justify-content-start pt-4 item-card">
-                <div id="closeCardBtn" class="close-form-btn"></div>
-            </div>
-        </div>
-    </section>
+        </section>
+        <section id="listSection">
+            <article id="emptySection" class="listado-vacio">
+                <div class="container vacio d-flex flex-column align-items-center">
+                    <div class="vacio-texto mt-5">
+                        <p class="text-center">Uppss... <br>
+                            Parece que no agregaste nada todavia</p>
+                    </div>
+                    <div class="vacio-img d-flex justify-content-center">
+                        <img src="./img/dead.png" alt="">
+                    </div>
+                </div>
+            </article>
+            <article id="listadoSection" class="listado">
+                <ul class="container m-auto"></ul>
+            </article>
+            <article id="mostrarItemSection" class="mostrar-item ">
+                <div id="itemCard" class="d-flex flex-column align-items-center justify-content-start pt-4 item-card">
+                    <div id="closeCardBtn" class="close-form-btn"></div>
+                </div>
+            </article>
+        </section>
+    </div>
     <div id="addBtn" class="btn-add">
         <img src="./img/add.png" alt="">
     </div>

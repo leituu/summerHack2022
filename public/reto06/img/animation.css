@@ -1,0 +1,225 @@
+/*
+The CSS export should solely be used as a reference.
+For a more detailed animation export the JSON file should be used.
+*/
+#pokeball-logo_2 {
+    transform: translateX(-50%) translateY(-50%);
+    animation: pokeball-logo_2__rotation__1 250ms 0ms linear forwards, pokeball-logo_2__rotation__2 250ms 250ms linear forwards, pokeball-logo_2__rotation__3 250ms 500ms linear forwards, pokeball-logo_2__rotation__4 250ms 750ms linear forwards, pokeball-logo_2__rotation__5 250ms 1000ms linear forwards, pokeball-logo_2__rotation__6 250ms 1250ms linear forwards, pokeball-logo_2__rotation__7 250ms 1500ms linear forwards, pokeball-logo_2__rotation__8 250ms 1750ms linear forwards, pokeball-logo_2__rotation__9 250ms 2000ms linear forwards, pokeball-logo_2__rotation__10 250ms 2250ms linear forwards, pokeball-logo_2__rotation__11 250ms 2500ms linear forwards, pokeball-logo_2__rotation__12 250ms 2750ms linear forwards, pokeball-logo_2__width__1 500ms 0ms linear forwards, pokeball-logo_2__width__2 500ms 500ms linear forwards, pokeball-logo_2__width__3 500ms 1000ms linear forwards, pokeball-logo_2__width__4 500ms 1500ms linear forwards, pokeball-logo_2__width__5 500ms 2000ms linear forwards, pokeball-logo_2__width__6 500ms 2500ms linear forwards, pokeball-logo_2__height__1 500ms 0ms linear forwards, pokeball-logo_2__height__2 500ms 500ms linear forwards, pokeball-logo_2__height__3 500ms 1000ms linear forwards, pokeball-logo_2__height__4 500ms 1500ms linear forwards, pokeball-logo_2__height__5 500ms 2000ms linear forwards, pokeball-logo_2__height__6 500ms 2500ms linear forwards;
+}
+
+@keyframes pokeball-logo_2__rotation__1 {
+    from {
+        transform: translateX(-50%) translateY(-50%) rotate(0deg);
+    }
+
+    to {
+        transform: translateX(-50%) translateY(-50%) rotate(-30deg);
+    }
+}
+@keyframes pokeball-logo_2__rotation__2 {
+    from {
+        transform: translateX(-50%) translateY(-50%) rotate(-30deg);
+    }
+
+    to {
+        transform: translateX(-50%) translateY(-50%) rotate(0deg);
+    }
+}
+@keyframes pokeball-logo_2__rotation__3 {
+    from {
+        transform: translateX(-50%) translateY(-50%) rotate(0deg);
+    }
+
+    to {
+        transform: translateX(-50%) translateY(-50%) rotate(30deg);
+    }
+}
+@keyframes pokeball-logo_2__rotation__4 {
+    from {
+        transform: translateX(-50%) translateY(-50%) rotate(30deg);
+    }
+
+    to {
+        transform: translateX(-50%) translateY(-50%) rotate(0deg);
+    }
+}
+@keyframes pokeball-logo_2__rotation__5 {
+    from {
+        transform: translateX(-50%) translateY(-50%) rotate(0deg);
+    }
+
+    to {
+        transform: translateX(-50%) translateY(-50%) rotate(-30deg);
+    }
+}
+@keyframes pokeball-logo_2__rotation__6 {
+    from {
+        transform: translateX(-50%) translateY(-50%) rotate(-30deg);
+    }
+
+    to {
+        transform: translateX(-50%) translateY(-50%) rotate(0deg);
+    }
+}
+@keyframes pokeball-logo_2__rotation__7 {
+    from {
+        transform: translateX(-50%) translateY(-50%) rotate(0deg);
+    }
+
+    to {
+        transform: translateX(-50%) translateY(-50%) rotate(30deg);
+    }
+}
+@keyframes pokeball-logo_2__rotation__8 {
+    from {
+        transform: translateX(-50%) translateY(-50%) rotate(30deg);
+    }
+
+    to {
+        transform: translateX(-50%) translateY(-50%) rotate(0deg);
+    }
+}
+@keyframes pokeball-logo_2__rotation__9 {
+    from {
+        transform: translateX(-50%) translateY(-50%) rotate(0deg);
+    }
+
+    to {
+        transform: translateX(-50%) translateY(-50%) rotate(-30deg);
+    }
+}
+@keyframes pokeball-logo_2__rotation__10 {
+    from {
+        transform: translateX(-50%) translateY(-50%) rotate(-30deg);
+    }
+
+    to {
+        transform: translateX(-50%) translateY(-50%) rotate(0deg);
+    }
+}
+@keyframes pokeball-logo_2__rotation__11 {
+    from {
+        transform: translateX(-50%) translateY(-50%) rotate(0deg);
+    }
+
+    to {
+        transform: translateX(-50%) translateY(-50%) rotate(30deg);
+    }
+}
+@keyframes pokeball-logo_2__rotation__12 {
+    from {
+        transform: translateX(-50%) translateY(-50%) rotate(30deg);
+    }
+
+    to {
+        transform: translateX(-50%) translateY(-50%) rotate(0deg);
+    }
+}
+@keyframes pokeball-logo_2__width__1 {
+    from {
+        width: 150px;
+    }
+
+    to {
+        width: 160px;
+    }
+}
+@keyframes pokeball-logo_2__width__2 {
+    from {
+        width: 160px;
+    }
+
+    to {
+        width: 150px;
+    }
+}
+@keyframes pokeball-logo_2__width__3 {
+    from {
+        width: 150px;
+    }
+
+    to {
+        width: 160px;
+    }
+}
+@keyframes pokeball-logo_2__width__4 {
+    from {
+        width: 160px;
+    }
+
+    to {
+        width: 150px;
+    }
+}
+@keyframes pokeball-logo_2__width__5 {
+    from {
+        width: 150px;
+    }
+
+    to {
+        width: 160px;
+    }
+}
+@keyframes pokeball-logo_2__width__6 {
+    from {
+        width: 160px;
+    }
+
+    to {
+        width: 150px;
+    }
+}
+@keyframes pokeball-logo_2__height__1 {
+    from {
+        height: 150px;
+    }
+
+    to {
+        height: 160px;
+    }
+}
+@keyframes pokeball-logo_2__height__2 {
+    from {
+        height: 160px;
+    }
+
+    to {
+        height: 150px;
+    }
+}
+@keyframes pokeball-logo_2__height__3 {
+    from {
+        height: 150px;
+    }
+
+    to {
+        height: 160px;
+    }
+}
+@keyframes pokeball-logo_2__height__4 {
+    from {
+        height: 160px;
+    }
+
+    to {
+        height: 150px;
+    }
+}
+@keyframes pokeball-logo_2__height__5 {
+    from {
+        height: 150px;
+    }
+
+    to {
+        height: 160px;
+    }
+}
+@keyframes pokeball-logo_2__height__6 {
+    from {
+        height: 160px;
+    }
+
+    to {
+        height: 150px;
+    }
+}
